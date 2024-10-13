@@ -1,0 +1,12 @@
+package cursoJavaBasico;
+
+public class Erro01 {
+
+	public static void main(String[] args) {
+		int n1 = 10;
+				
+		System.out.println("Teste " + n1 );
+
+	}
+
+}
