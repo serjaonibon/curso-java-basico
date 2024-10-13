@@ -1,0 +1,1 @@
+Aulas do curso básico de java, da professora Loiane Groner. Iniciei esse curso em outubro de 2024, em virtude de uma cadeira de POO em Java, de minha faculdade. Esse curso será um complemento para melhorar meu aprendizado na cadeira que estou cursando sobre essa tema.
