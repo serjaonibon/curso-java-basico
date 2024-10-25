@@ -16,9 +16,9 @@ public class Exer06 {
 		
 		if (n1 > n2 && n1 > n3 ) {
 			System.out.println("Dos três números digitados, " + n1 + " é o maior.");
-		} else if(n1 < n2 && n2 > n3) {
+		} else if(n2 > n1 && n2 > n3) {
 			System.out.println("Dos três números digitados, " + n2 + " é o maior.");			
-		} else {
+		} else if (n3 > n1 && n3 > n2) {
 			System.out.println("Dos três números digitados, " + n3 + " é o maior.");
 		}
 		
