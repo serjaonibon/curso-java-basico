@@ -10,7 +10,7 @@ public class Exer04 {
 		System.out.println("Digite uma letra de nosso alfabeto: ");
 		String letra = scan.next();
 		
-		
+		/*
 		if (letra.equalsIgnoreCase("A" )) {
 			System.out.println("Você digitou uma vogal.");
 		} else if (letra.equalsIgnoreCase("E" ) ) {
@@ -23,6 +23,21 @@ public class Exer04 {
 			System.out.println("Você digitou uma vogal.");
 		} else {
 			System.out.println("Você digitou uma consoante");
+		}
+		*/
+		
+		switch(letra) {
+		case "a": 
+		case "e": 
+		case "i":
+		case "o": 
+		case "u":
+		case "A":
+		case "E": 
+		case "I": 
+		case "O": 
+		case "U": System.out.println("Você digitou uma VOGAL!"); break;
+		default: System.out.println("Você digitou uma CONSOANTE!");
 		}
 
 	}
